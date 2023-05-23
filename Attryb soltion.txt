@@ -1,0 +1,17 @@
+Create Table OEM_SPECS
+( Name_of_Model varchar2(15),
+  Price_of_newVehicle number,
+  Year_of_Model number,
+  Available_colors varchar2(15),
+  Mileage number,
+  Power varchar2(10),
+  Maxspeed varchar2(10)
+);
+Create Table Marketplace_Inventory
+( KMs_on_Odometer number,
+  Major_Scratches varchar2(10),
+  Original_Paint varchar2(10),
+  Number_of_Accidentsreported number,
+  Number_of_Priviousbuyers number,
+  Registration_Place varchar2(15)
+);
